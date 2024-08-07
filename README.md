@@ -1,1 +1,1 @@
-# Instawork
+# Instawork Coding Challenge
