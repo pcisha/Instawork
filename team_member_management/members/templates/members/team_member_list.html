@@ -11,7 +11,7 @@
     <div class="container">
         <header>
             <h1>Team members</h1>
-            <p>You have {{ team_members|length }} team members.</p>
+            <p>You have {{ team_members|length }} team member{{ team_members|length|pluralize }}.</p>
             <a href="{% url 'team_member_add' %}" class="add-button">+</a>
         </header>
         <div class="member-list">
